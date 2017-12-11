@@ -32,9 +32,13 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json'],
+    extensions: ['.js', '.vue', '.json', '.scss'],
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      'components': resolve('src/components'),
+      'common': resolve('src/common'),
+      'base': resolve('src/base'),
+      'api': resolve('src/api'),
+      'jquery': 'jquery'
       '@': resolve('src'),
     }
   },
