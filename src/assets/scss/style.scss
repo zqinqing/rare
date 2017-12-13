@@ -1,0 +1,201 @@
+// 插值#{}
+$sideL: left;
+$sideR: right;
+$dideT: top;
+$dideB: bottom;
+.rounded {
+    border-#{$sideL}-radius: 5px;
+}
+
+
+// 如果值后面加上!default则表示默认值。
+$rela: relative !default;
+$abso: absolute !default;
+$fixed: fixed !default;
+$side : left !default;
+
+$font-family: 'Microsoft YaHei', Arial !default;
+$width: 15rem !default;
+$width1: 100% !default;
+$height: 20rem !default;
+$height1: 100% !default;
+
+
+$color-333: #333 !default;
+$color-666: #666 !default;
+$color-red: red !default;
+$color-white: #fff !default;
+$margin: 0 auto !default;
+$hide: hidden !default;
+$base: bottom !default;
+
+ 
+// 左右 
+$left: left !default;
+$right: right !default;
+
+// 行 / 块状元素 
+$inline-block: inline-block !default;
+$block: block !default;
+$inline: inline !default;
+
+
+// 混合宏 
+@mixin text-over {
+    // 文字超出文本框范围自动转为省略号
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+// 文字超出文本框范围自动转为省略号
+@mixin txtover($num) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+    overflow: hidden;
+}
+
+@mixin box-sizing {
+    -webkit-box-sizing: border-box;     
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+@mixin margin-auto {
+    margin: 0 auto;
+}
+
+// 文本不能被选择
+@mixin without-bg {
+    -moz-user-select: none; // 火狐
+    -webkit-user-select: none; // webkit浏览器
+    -ms-user-select: none; // IE10
+    -khtml-user-select: none; // 早期浏览器
+    user-select: none;
+}
+
+// 设置宽高
+@mixin size($width,$height){
+  width: $width;
+  height: $height;
+}
+
+// 设置圆角
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+    overflow: hidden;
+}
+
+// 设置字体
+@mixin font($font-size, $line-height, $font-weight, $text-align ,$color) {
+    font-size: $font-size;
+    line-height: $line-height;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    text-align: $text-align;
+    color: $color;
+}
+
+// 内容居中
+@mixin center($width,$height){
+  width: $width;
+  height: $height;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -($height) / 2;
+  margin-left: -($width) / 2;
+}
+
+// 判断元素是否显示
+@mixin showorhide($boolean:true) {
+  @if $boolean {
+      @debug "$boolean is #{$boolean}";
+      display: block;
+    }
+  @else {
+      @debug "$boolean is #{$boolean}";
+      display: none;
+    }
+}
+// 使用
+//  @include blockOrHidden;
+//  @include blockOrHidden(false);
+
+// 普通单行flex布局  子样式设置 display: inline-block;
+@mixin flex{
+    display: -webkit-flex; 
+    display: flex;
+    -webkit-flex-direction: row; 
+    -webkit-justify-content: space-around;
+}
+
+// 多行flex 布局 需要子元素宽度挤开给margin值
+@mixin multi-row-flex{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // text-align:justify
+}
+
+// 阴影 当混合宏传的参数过多之时，可以使用...参数来替代
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+// 调用 ： @include box-shadow(0 0 1px rgba(#000,.5),0 0 2px rgba(#000,.2));
+
+
+                // 名字 //周期时间  // 运动曲线 //多少秒后开始 //播放次数      // 是否循环播放
+@mixin animation($name, $duration, $timing-function, $delay,  $iteration-count, $direction) {
+    // 简写 animation: name duration timing-function delay iteration-count direction;  
+    animation-name: $name;                           // 规定 @keyframes 动画的名称。
+    animation-duration: $duration;                   // 规定动画完成一个周期所花费的秒或毫秒。默认是 0。
+    animation-timing-function: $timing-function;     // 规定动画的速度曲线。默认是 "ease"。
+    animation-delay: $delay;                         // 规定动画何时开始。默认是 0。
+    animation-iteration-count: $iteration-count;     // 规定动画被播放的次数。默认是 1。
+    animation-direction: $direction;                 // 规定动画是否在下一周期逆向地播放。默认是 "normal"。 
+    //animation-play-state:running;                  // 规定动画是否正在运行或暂停。默认是 "running"。
+    // Firefox: 
+    -moz-animation-name: $name;
+    -moz-animation-duration: $duration;
+    -moz-animation-timing-function: $timing-function;
+    -moz-animation-delay: $delay;
+    -moz-animation-iteration-count: $iteration-count;
+    -moz-animation-direction: $direction;
+    // -moz-animation-play-state:running;
+    // Safari and Chrome: 
+    -webkit-animation-name: $name;
+    -webkit-animation-duration: $duration;
+    -webkit-animation-timing-function: $timing-function;
+    -webkit-animation-delay: $delay;
+    -webkit-animation-iteration-count: $iteration-count;
+    -webkit-animation-direction: $direction;
+    // -webkit-animation-play-state:running;
+    // Opera:
+    -o-animation-name: $name;
+    -o-animation-duration: $duration;
+    -o-animation-timing-function: $timing-function;
+    -o-animation-delay: $delay;
+    -o-animation-iteration-count: $iteration-count;
+    -o-animation-direction: $direction;
+    // -o-animation-play-state:running;
+}
+
+@mixin linear-gradient($angle, $color1, $color2, $color3) {
+    background-image: -webkit-linear-gradient($angle, $color1, $color2, $color3);
+    background-image: -moz-linear-gradient($angle, $color1, $color2, $color3);
+    background-image: -ms-linear-gradient($angle, $color1, $color2, $color3);
+    background-image: -o-linear-gradient($angle, $color1, $color2, $color3);
+    background-image: linear-gradient($angle, $color1, $color2, $color3);
+}
