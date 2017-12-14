@@ -13,7 +13,7 @@ import about from '@/components/about/about'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
+  mode: 'history',
   routes: [
     {
         // 首页
@@ -23,25 +23,21 @@ export default new Router({
     {
         // 首页
         path: '/index',
-        name: 'index',
         component: index
     },
     {
         //  业务板块
         path: '/business',
-        name: 'business',
         component: business
     },
     {
         // 新闻资讯
         path: '/news',
-        name: 'news',
         component: news
     },
     {
         // 关于我们
         path: '/about',
-        name: 'about',
         component: about
     }
   ]

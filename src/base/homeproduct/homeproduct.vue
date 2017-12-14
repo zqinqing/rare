@@ -24,7 +24,7 @@
 </template>
 
 <script>
-    import { postData, getData, apiUrl } from '@/api/api'
+    import { postData, getData, apiUrl } from '@/constant/api'
     export default {
         data () {
             return {

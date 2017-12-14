@@ -37,10 +37,10 @@ module.exports = {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
       'components': resolve('src/components'),
+      // 'constant': resolve('src/constant'),
       'assets': resolve('src/assets'),
       'common': resolve('src/common'),
       'base': resolve('src/base'),
-      'api': resolve('src/api'),
       'jquery': 'jquery',
     }
   },
@@ -76,7 +76,7 @@ module.exports = {
         test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         loader: 'url-loader',
         options: {
-          limit: 10000,
+          limit: 90000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       }

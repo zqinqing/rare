@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import { postData, getData, apiUrl, format } from '@/api/api'
+import { postData, getData, apiUrl, format } from '@/constant/api'
 export default {
     data() {
         return {

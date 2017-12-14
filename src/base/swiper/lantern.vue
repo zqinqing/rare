@@ -17,7 +17,7 @@
 <script>
 import 'swiper/dist/css/swiper.css'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
-import { postData, getData, apiUrl } from '@/api/api'
+import { postData, getData, apiUrl } from '@/constant/api'
 export default {
     name: 'carrousel',
     components: {

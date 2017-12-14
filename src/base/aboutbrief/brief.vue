@@ -2,14 +2,14 @@
     <div class="brief-wrap">
         <h1 class="about-title">集团简介</h1>
         <div class="about-pic">
-             <img src="./images/about-intro.png" alt="集团简介">
+             <img src="src/base/aboutbrief/images/about-intro.png" alt="集团简介">
         </div>
         <div class="about-brief-text">
             {{ brief.briefText }}
         </div>
         <h1 class="about-title">公司架构</h1>
         <div class="about-pic">
-            <img src="./images/about-framework.png" style="width: 86%" alt="公司架构">
+            <img src="src/base/aboutbrief/images/about-framework.png" style="width: 86%" alt="公司架构">
         </div>
         <h1 class="about-title">公司荣耀</h1>
         <ul class="about-glory clearfix">
@@ -53,7 +53,7 @@
 <script>
     import 'swiper/dist/css/swiper.css'
     import { swiper, swiperSlide } from 'vue-awesome-swiper'
-    import { postData, getData, apiUrl } from '@/api/api'
+    import { postData, getData, apiUrl } from '@/constant/api'
     export default {
         // name: 'carrousel',
         components: {

@@ -36,7 +36,7 @@
 </template>
 
 <script>
-    import { postData, getData, apiUrl } from '@/api/api'
+    import { postData, getData, apiUrl } from '@/constant/api'
     export default {
         data () {
             return {
@@ -45,7 +45,7 @@
         },
         created() {
             getData('src/data/homerelation.json').then((response) => {
-                console.log(response)
+                // console.log(response)
                 this.relation = response.result
             })
         }
