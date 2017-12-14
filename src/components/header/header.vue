@@ -17,27 +17,29 @@
                 headTitle: '首页'
             }
         },
-        methods: {},
-        watch: {
-            //监听路由
-            $route: {
-                handler (val, oldVal) {
-                    //获取路由参数
-                    let url = this.$route.name
-                    console.log('当前页面的router:' + url)
-                    if (url === 'index') {
-                        this.headTitle = '首页'
-                    } else if (url === 'business') {
-                        this.headTitle = '业务板块'
-                    } else if (url === 'news') {
-                        this.headTitle = '新闻资讯'
-                    } else if (url === 'about') {
-                        this.headTitle = '关于我们'
-                    }
-                },
-                //深度观察监听
-                deep: true
+        methods: {
+            refresh () {
+                //获取路由参数
+                let url = this.$route.name
+                // console.log('当前页面的router:' + url)
+                if (url === 'index') {
+                    this.headTitle = '首页'
+                } else if (url === 'business') {
+                    this.headTitle = '业务板块'
+                } else if (url === 'news') {
+                    this.headTitle = '新闻资讯'
+                } else if (url === 'about') {
+                    this.headTitle = '关于我们'
+                }
             }
+        },
+        watch: {
+            $route (n) {
+                this.refresh ()
+            }
+        },
+        created () {
+            this.refresh()
         }
     }
 </script>
@@ -52,6 +54,7 @@
         left: 0;
         right: 0;
         margin: 0 auto;
+        z-index: 50;
     }
     .head-con {
         width: 574px;

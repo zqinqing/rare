@@ -1,0 +1,43 @@
+{
+    "message": "操作成功",
+    "result": {
+        "relationName": "广东省稀土产业集团有限公司50楼广晟国际大厦",
+        "relationSite": "地址：广东省东省广州市天河区珠江新城珠江西路17号广晟国际大厦",
+        "imgpath": "http:////qr.api.cli.im/qr?data=%25E6%2588%2591%25E7%2588%25B1%25E4%25BD%25A0&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=01c30040d15fe23fc4e43d639430d1ab",
+        "relationList": [
+            {
+                "name": "电话总机",
+                "phone": "020-38837767"
+            },
+            {
+                "name": "电话分机",
+                "phone": "020-38837766"
+            },
+            {
+                "name": "公司邮箱",
+                "phone": "123334576@qq.com"
+            }
+        ],
+        "relationLink": [
+            {
+                "name": "公司产品",
+                "path": "/business"
+            },
+            {
+                "name": "关于我们",
+                "path": "/about"
+            },
+            {
+                "name": "新闻资讯",
+                "path": "/news"
+            },
+            {
+                "name": "联系我们",
+                "path": "/index"
+            }
+        ],
+        "relationPut": "Copyright © 广东省广晟资产经营有限公司 版权所有 粤ICP备05081955号"
+    },
+    "status": "200"
+}
+

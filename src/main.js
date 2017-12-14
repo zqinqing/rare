@@ -7,9 +7,12 @@ import router from './router'
 import 'lib-flexible'
 // 引入字体图标库
 import 'assets/iconfont/iconfont.css'
+// 引入 swiper
+import swiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 
 Vue.config.productionTip = false
-
+Vue.use(swiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -54,6 +54,7 @@ export default {
         margin: 0 auto;
         box-sizing: border-box;
         border-top: 1px solid #ccc;
+        z-index: 50;
 
         ul {
             width: 100%;

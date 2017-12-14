@@ -1,0 +1,89 @@
+{
+    "message": "操作成功",
+    "result": {
+        "newsHeadList": [
+            {
+                "url": "/news",
+                "alt": "集团要闻",
+                "title": "集团要闻",
+                "imgPath": "src/base/homenews/images/index-news-head-pic1.png",
+                "content": "集团要闻"
+            },
+            {
+                "url": "/news",
+                "alt": "企业动态",
+                "title": "企业动态",
+                "imgPath": "src/base/homenews/images/index-news-head-pic2.png",
+                "content": "企业动态"
+            },
+            {
+                "url": "/news",
+                "alt": "通知公告",
+                "title": "通知公告",
+                "imgPath": "src/base/homenews/images/index-news-head-pic3.png",
+                "content": "通知公告"
+            }
+        ],
+        "newsTime": {
+            "time": 1512116599117,
+            "minutes": 23,
+            "seconds": 19,
+            "hours": 16,
+            "month": 11,
+            "year": 117,
+            "timezoneOffset": -480,
+            "day": 5,
+            "date": 1
+        },
+        "newsImg": "src/base/homenews/images/index-news-con-img.png",
+        "newsAlt": "首页新闻模块图片",
+        "newsHeadline": "广晟认真学习习近平总书记重要批示",
+        "newsContent": "4月21日，广晟有色党委召开理论学习中心组扩大会议，学习贯彻习近平总书记关于广东工作重要批示精神。广晟公司党委委...",
+        "newUrl": "/news",
+        "newsConList": [
+            {
+                "newsListTime": {
+                    "nanos": 0,
+                    "time": 1512549591000,
+                    "minutes": 39,
+                    "seconds": 51,
+                    "hours": 16,
+                    "month": 11,
+                    "timezoneOffset": -480,
+                    "year": 117,
+                    "day": 3,
+                    "date": 6
+                },
+                "newsListHeadline": "广晟认真学习习近平总书记重要批示",
+                "newsListContent": "4月21日，广晟有色党委召开理论学习中心组扩大会议，学习贯彻习近平总书记关于广东工作重要批示...",
+                "url": "/news"
+            },
+            {
+                "newsListTime": {
+                    "nanos": 0,
+                    "time": 1512117266000,
+                    "minutes": 34,
+                    "seconds": 26,
+                    "hours": 16,
+                    "month": 11,
+                    "year": 117,
+                    "timezoneOffset": -480,
+                    "day": 5,
+                    "date": 1      
+                },
+                "newsListHeadline": "广晟获全国“绿色矿山”称号",
+                "newsListContent": "近日，国土资源部公布对第一批、第二批“国家级绿色矿山试点单位建设进展情况”的评估结果，确认...",
+                "url": "/news"
+            }
+        ],
+        "id": 2,
+        "isOnline": "1",
+        "isDel": "0",
+        "headImg": "",
+        "address": [],
+        "email": "admin",
+        "withdraw": [],
+        "personalId": "54fb"
+    },
+    "status": "200"
+}

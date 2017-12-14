@@ -1,0 +1,34 @@
+{
+    "message": "操作成功",
+    "result": [
+        {
+            "id": 1,
+            "alt": "首页轮播1",
+            "title": "首页轮播1",
+            "url": "/index",
+            "imgPath": "src/base/swiper/images/lantern01.png"
+        },
+        {
+            "id": 2,
+            "alt": "首页轮播2",
+            "title": "首页轮播2",
+            "url": "/index",
+            "imgPath": "http://img02.tooopen.com/images/20141231/sy_78327074576.jpg"
+        },
+        {
+            "id": 3,
+            "alt": "首页轮播3",
+            "title": "首页轮播3",
+            "url": "/index",
+            "imgPath": "http://img05.tooopen.com/images/20141209/sy_76828833265.jpg"
+        },
+        {
+            "id": 4,
+            "alt": "首页轮播4",
+            "title": "首页轮播4",
+            "url": "/index",
+            "imgPath": "http://img02.tooopen.com/images/20160106/tooopen_sy_153531931639.jpg"
+        }
+    ],
+    "status": "200"
+}

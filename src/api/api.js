@@ -2,7 +2,8 @@ import axios from 'axios'
 import qs from 'qs'
 
 // 数据请求基本地址
-export const baseUrl = 'http://localhost:80/pj_yide/'
+export const baseUrl = 'http://localhost:8080/'
+// export const baseUrl = 'http://localhost:80/pj_yide/'
 // export const baseUrl = 'http://192.168.0.239:8080/pj_yide/'
 
 // 拼接 url

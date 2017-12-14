@@ -1,0 +1,26 @@
+{
+    "message": "操作成功",
+    "result": [
+        {
+            "id": 1,
+            "content": "招贤纳士",
+            "url": "/index"
+        },
+        {
+            "id": 2,
+            "content": "社会责任",
+            "url": "/index"
+        },
+        {
+            "id": 3,
+            "content": "稀土行情",
+            "url": "/index"
+        },
+        {
+            "id": 4,
+            "content": "联系我们",
+            "url": "/index"
+        }
+    ],
+    "status": "200"
+}

@@ -13,7 +13,7 @@ import about from '@/components/about/about'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
         // 首页

@@ -1,0 +1,53 @@
+{
+    "message": "操作成功",
+    "result": {
+        "productDetail": [
+            {
+                "id": 1,
+                "productName": "矿产资源",
+                "text": "<div class='index-product-pic'><img src='http://photo.tuchong.com/1775850/f/30327233.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 2,
+                "productName": "电子信息",
+                "text": "<div class='index-product-pic'><img src='http://photo.tuchong.com/1775850/f/30328247.jpg'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 3,
+                "productName": "工程地产",
+                "text": "<div class='index-product-pic'><img src='https://photo.tuchong.com/1775850/f/30328072.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 4,
+                "productName": "金融",
+                "text": "<div class='index-product-pic'><img src='https://photo.tuchong.com/1775850/f/30324757.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 5,
+                "productName": "稀土分离",
+                "text": "<div class='index-product-pic'><img src='http://photo.tuchong.com/1775850/f/30324539.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 6,
+                "productName": "环保产业",
+                "text": "<div class='index-product-pic'><img src='https://photo.tuchong.com/1775850/f/30324226.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 7,
+                "productName": "稀土金属",
+                "text": "<div class='index-product-pic'><img src='https://photo.tuchong.com/1775850/f/30324118.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            },
+            {
+                "id": 8,
+                "productName": "陶瓷金卤灯",
+                "text": "<div class='index-product-pic'><img src='https://photo.tuchong.com/1775850/f/30324078.jpg' alt='矿产资源'></div><div class='index-product-con'>稀土金属产品有金属镧、金属镨钕、金属铽、金属镝等。<br />稀土金属的化学活性很强,多数呈银灰色.性质较软，在潮湿空气中<br />不易保存，易溶于稀酸。稀土金属的光泽介于银和铁之间。<br />杂质含量对它们的性质影响很大。</div>"
+            }
+        ],
+        "productHeadline": "产品中心",
+        "EnglishHeadline": "OUR PRODUCTS",
+        "more": "VIEW MORE",
+        "url": "/business"
+    },
+    "status": "200"
+}
+

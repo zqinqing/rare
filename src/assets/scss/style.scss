@@ -103,13 +103,13 @@ $inline: inline !default;
 
 // 内容居中
 @mixin center($width,$height){
-  width: $width;
-  height: $height;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -($height) / 2;
-  margin-left: -($width) / 2;
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -($height) / 2;
+    margin-left: -($width) / 2;
 }
 
 // 判断元素是否显示

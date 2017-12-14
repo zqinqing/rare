@@ -1,11 +1,22 @@
 <template>
     <div class="index-container clearfix">
-        <p>关于我们</p>
+        <!-- 关于我们 集团简介 -->
+        <abou-brief></abou-brief>
     </div>
 </template>
 
 <script>
+import abouBrief from 'base/aboutbrief/brief'
+export default {
+    components: {
+        abouBrief
+    },
+    data () {
+        return {
 
+        }
+    }
+}
 </script>
 
 <style lang="scss" scoped>
