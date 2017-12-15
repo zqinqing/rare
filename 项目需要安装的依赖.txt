@@ -1,0 +1,12 @@
+需要安装的依赖，
+首先安装 cnpm install
+
+项目用到需要安装的插件:
+1、cnpm i lib-flexible --save
+2、cnpm i px2rem-loader --save-dev
+3、cnpm i axios --save
+4、cnpm i node-sass --save
+5、cnpm i sass-loader --save
+6、cnpm i vue --save
+7、cnpm i vue-awesome-swiper --save
+8、cnpm i vue-router --save
