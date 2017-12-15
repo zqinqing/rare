@@ -317,7 +317,7 @@
             list-style: none;
             padding: 0;
             z-index: 1;
-            // background: #fff;
+            background: transparent;
         }
 
         .swiper-pagination-bullet {
